@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,100;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!--Header section-->
+    <section class="sub-header" >
+        <nav>
+            <a href="index.html"><img src="media/logo1.png" alt="This is logo."></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSE</a></li>
+                    <li><a href="faculty.html">FACULTY</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    <h1>About Us</h1>
+    </section>
+
+
+    <!---------about us--------->
+
+    <section class="about">
+        <div class="row">
+            <div class="about-col">
+                <h1>About Punjabi University College Benra</h1>
+                <p>University College, Benra-Dhuri is one of the unique colleges situated at royal district Sangrur on the historical land of Punjab established under 11th plan of University Grants Commission, planning to educate rural & remote area people. It is situated on Sangrur-Ludhiana highway which occupies modern technique and was built with the help of donated land by panchayat of village Benra. With the profound co-operation of state government as well as Punjabi University, Patiala, the college has started successfully in 2016-2017 academic year. Experienced and skilled staff was appointed by Punjabi university, Patiala to provide quality education to all students.<br><br>
+
+ 
+
+                    People of this area desired that their children should get higher education in their own region, which was fulfilled after the opening of this college, providing economical and higher quality education as compared to private colleges of this area. This college is developing by leaps and bounds. Under the guidance of Punjabi university, Patiala and with creative thinking of the staff, this college is progressing towards newer stands of development. The only mission of this college is to create students that serve humanity, give society educated citizens, great sports-persons and hope to lead our society in various fields of development. <br> <br>
+         
+         ​
+         
+                   Experienced staff and modern infrastructure with high tech laboratories, gigantic library and well equipped sports kits and tools are assigned for the overall development of students.</p>
+                
+                <a href="gallery.html" class="btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+              <img src="media/meet.jpg" alt="this is an image">
+              <img src="media/meeting01.jpg" alt="this is an image">
+            </div>
+        </div>
+    </section>
+     <!-------Footer------>
+
+     <section class="footer">
+        <h4>About Us</h4>
+        <p>Punjabi University and the colleges under punjabi university combines experiences with new age implementation.<br>copyright <i class="fa fa-copyright"></i>. All rights reserved.</p>
+        <div class="icons">
+         <i class="fa fa-facebook"></i>
+         <i class="fa fa-twitter"></i>
+         <i class="fa fa-instagram"></i>
+         <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Sharika Singla</p>
+ </section>
+
+
+
+
+ <!--Javascript for toggle menu-->
+ <script>
+     var navLinks = document.getElementById("navLinks");
+     function showMenu(){
+         navLinks.style.right = "0";
+     }
+     function hideMenu(){
+         navLinks.style.right = "-200px";
+     }
+ </script>
+
+
+
+</body>
+</html>
